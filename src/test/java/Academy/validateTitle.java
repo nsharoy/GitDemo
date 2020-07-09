@@ -27,6 +27,7 @@ public class validateTitle extends base{
 	
 		 driver =initializeDriver();
 		 log.info("Driver is initialized");
+		 System.out.println("Driver initialized");
 			
 		driver.get(prop.getProperty("url"));
 		 log.info("Navigated to Home page");
